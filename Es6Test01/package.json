@@ -1,0 +1,24 @@
+{
+  "name": "ES6Test",
+  "version": "1.0.0",
+  "description": "es6",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/index.js -o dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unameb/ES6Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unameb/ES6Test/issues"
+  },
+  "homepage": "https://github.com/unameb/ES6Test#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
